@@ -3,5 +3,5 @@ import joblib
 
 class YouMLProject:
     def TextSentiment(str):
-        ml_model = joblib.load('ml.joblib')
-        return ml_model.predict([str])
+        svm_model = joblib.load('svm.joblib')
+        return svm_model.predict([str])
