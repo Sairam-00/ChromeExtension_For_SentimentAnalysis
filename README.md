@@ -1,1 +1,3 @@
-# ChromeExtension_for_SentimentAnalysis
+## ChromeExtension_for_SentimentAnalysis
+
+Our project uses text used in the google search engine and detects the polarity of the text. So, when someone intends to google something, our model identifies the sentiment of the searched statement. This can be useful in the identification of potentially dangerous or abnormal behaviours that may lead to adverse effects. The main theme of our model is, as every teen is using the internet, this chrome extension can act as parental monitoring of their digital web life. It may also be helpful in the detection of the person’s psychological condition, in some suicidal, abusive cases.
