@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Text Sentiment",
+    "description": "by Team 68AD",
+    "version": "0.0.1",
+
+    "permissions": ["tabs"],
+    
+    "host_permissions": [
+        "*://*.google.com/"
+    ],
+    "background": {
+        "service_worker": "js/service-worker.js"
+    },
+    "content_scripts": [{
+        "js": ["js/jquery.js","js/bootstrap.bundle.min.js","js/foreground.js"],
+        "css" : ["style.css"],
+        "matches": [ "*://*.google.com/"]
+    }]
+}
